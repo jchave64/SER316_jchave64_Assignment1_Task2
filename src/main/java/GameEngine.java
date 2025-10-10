@@ -1,10 +1,13 @@
 public class GameEngine {
+    private static final int MAX_ATTEMPTS = 10;
+
     private final int min;
     private final int max;
     private int target;
     private int attempts;
     private boolean gameWon;
     private boolean userQuit;
+
 
     public GameEngine(int min, int max) {
         this.min = min;
@@ -51,6 +54,10 @@ public class GameEngine {
 
     public int getAttempts() {
         return attempts;
+    }
+
+    public int getMaxAttempts() {
+        return MAX_ATTEMPTS;
     }
 
     public int getMin() {
