@@ -8,3 +8,4 @@ build/
 *.ipr
 out/
 gradlew
+settings.gradle.kts
