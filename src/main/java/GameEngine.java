@@ -7,6 +7,7 @@ public class GameEngine {
     private int attempts;
     private boolean gameWon;
     private boolean userQuit;
+    private boolean gameOver; //not sure
     private boolean hintsEnabled;
 
 
