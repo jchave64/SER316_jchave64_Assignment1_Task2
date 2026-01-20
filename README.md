@@ -11,7 +11,7 @@ branch that adds new features.
 feature2: is branched off of main. It adds max attempts to
 the game and maxAttempts logic for the game. 
 
-feature3: is branched off of main. It 
+feature3: is branched off of main. It adds hint functionality.
 
 hotfix: this branch holds a commit that is ready for main. 
 It fixes randomInt so that it includes it's max value in the 
