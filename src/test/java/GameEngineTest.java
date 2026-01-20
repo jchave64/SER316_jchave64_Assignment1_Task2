@@ -125,22 +125,22 @@ public class GameEngineTest {
         assertEquals(10, engine.getMaxAttempts());
     }
 
-    @Test
+    /*@Test   ///UNSURE
     public void testResetClearsGameOver() {
         engine.setTarget(50);
         for (int i = 0; i < 10; i++) {
             engine.makeGuess(1);
         }
         engine.reset();
-        assertFalse(engine.isGameOver());
+        assertFalse(engine.isGameOver());*/
 
-    /*@Test ///UNSURE
+    @Test   ///UNSURE
     public void testHintVeryClose() {
         engine.setTarget(50);
         engine.makeGuess(60);
         engine.makeGuess(60);
         GuessResult result = engine.makeGuess(55);
-        assertTrue(result.getMessage().contains("HINT: You're very close!"));*/
+        assertTrue(result.getMessage().contains("HINT: You're very close!"));
     }
 
     @Test
