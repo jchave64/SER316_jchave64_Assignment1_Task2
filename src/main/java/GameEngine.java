@@ -16,6 +16,7 @@ public class GameEngine {
         this.max = max;
         this.attempts = 0;
         this.gameWon = false;
+        this.gameOver = false; //UNSURE//////////////////////////////////
         this.userQuit = false;
         this.hintsEnabled = true;
         reset();
