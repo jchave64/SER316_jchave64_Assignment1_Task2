@@ -11,11 +11,14 @@ branch that adds new features.
 feature2: is branched off of main. It adds max attempts to
 the game and maxAttempts logic for the game. 
 
-feature3:
+feature3: is branched off of main. It 
 
 hotfix: this branch holds a commit that is ready for main. 
 It fixes randomInt so that it includes it's max value in the 
 range given.
 
-feature1: 
+feature1: is branched off of main. Updates .gitignore, added 
+version comments, improves user feedback messages for guesses, 
+adds play-again loop functionality, and adds the ability to 
+quit game with negative number input.
 
