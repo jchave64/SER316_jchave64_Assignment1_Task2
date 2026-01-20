@@ -33,7 +33,7 @@ public class GameEngine {
             gameWon = true;
             return new GuessResult(true, "Correct! You guessed it in " + attempts + " attempts.", attempts);
         } else if (attempts >= MAX_ATTEMPTS) {
-            //gameOver = true;
+            gameOver = true;
             userQuit = true;
             return new GuessResult(false, "Game Over! You've used all " + MAX_ATTEMPTS + " attempts. The number was " + target + ".", attempts);
         } else {
